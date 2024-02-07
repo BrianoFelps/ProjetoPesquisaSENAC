@@ -1,0 +1,93 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: black url(../Res/cropped-1920-1080-1116781.jpg) no-repeat top center;
+    background-size: cover;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+label:hover, button:hover {
+    cursor: pointer;
+}
+
+#barraPesquisa_cont input[type="text"] {
+    display: flex;
+    color: #FFF;
+    font-size: 16px;
+    margin: 100px auto 0px;
+    width: 50%;
+    padding: 18px;
+    padding-left: 60px;
+    background: url(../Res/Google_Icons.webp) no-repeat left;
+    /* background: url(../Res/lupa-de-pesquisa.png) no-repeat right; */
+    background-size: 40px 40px;
+    opacity: 90%;
+    border-style: none;
+
+}
+
+#barraPesquisa_cont img {
+    display: flex;
+    position: absolute;
+    padding: 10px;
+    width: 35px;
+    height: 35px;
+    left: 77%;
+    top: 10.7%;
+}
+
+#sitesFavoritos {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#sitesFavoritos ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+#sitesFavoritos ul li{
+    text-align: center;
+    margin: 0 20px;
+}
+
+#sitesFavoritos ul li a:hover{
+   opacity: 60%;
+   transition: 0.3s;
+}
+
+#listaSites a{
+    text-decoration: none;
+    color: #FFF;
+    display: block;
+}
+
+#listaSites img {
+    height: auto;
+    margin: 0 auto; /* Centraliza horizontalmente o ícone */
+}
+
+#listaSites textarea {
+    color: #FFF;
+    background: rgba(155, 22, 22, 0.8);
+    width: 200px;
+    height: 150px;
+    border: none;
+    border-radius: 2px;
+    resize: none;
+    text-align: center;
+}
+ 
+#listaSites .Opacidade {
+    opacity: 80%;
+}

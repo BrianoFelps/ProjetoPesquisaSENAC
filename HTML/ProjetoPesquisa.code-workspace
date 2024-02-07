@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../ApresentacaoAguapar"
+		},
+		{
+			"path": "../../ProjetoSenac"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ProjetoPesquisa"
+	}
+}
