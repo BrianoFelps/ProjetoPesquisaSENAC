@@ -1,6 +1,8 @@
 *{
 margin: 0;
 padding: 0;
+color: white;
+text-decoration: none;
 }
 
 body {
@@ -19,30 +21,81 @@ label:hover, button:hover {
     cursor: pointer;
 }
 
+footer {
+    display: grid;
+    place-items: center;
+}
+
+footer div {
+    display: flex;
+    margin: 30px 30px 20px 30px;
+}
+
+footer div a {
+    padding-left: 5px;
+    font-size: 22px;
+}
+
+footer div a:hover {
+    transition: 0.5s;
+    color: #fa1e4e;
+}
+
+.primeiro {
+    border: none;
+}
+
+#container {
+    margin-bottom: 20%;
+}
+
+#barraPesquisa_cont {
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    clear: both;
+}
+
+#BarraTemperatura {
+    margin: 25px 0 100px 25px;
+}
+
 #barraPesquisa_cont input[type="text"] {
     display: flex;
     color: #FFF;
-    font-size: 16px;
-    margin: 100px auto 0px;
-    width: 50%;
+    font-size: 20px;
+    width: 100%;
     padding: 18px;
     padding-left: 60px;
     background: url(../Res/Google_Icons.webp) no-repeat left;
     /* background: url(../Res/lupa-de-pesquisa.png) no-repeat right; */
-    background-size: 40px 40px;
-    opacity: 90%;
+    background-size: 50px;
+    opacity: 92%;
     border-style: none;
+}
 
+#barraPesquisa_cont input[type="text"]:focus {
+    font-weight: 500;
+    opacity: 100%;
 }
 
 #barraPesquisa_cont img {
     display: flex;
-    position: absolute;
     padding: 10px;
-    width: 35px;
-    height: 35px;
-    left: 77%;
-    top: 10.7%;
+    width: 50px;
+    height: 50px;
+}
+
+#barraPesquisa_cont #botaoPesquisa:hover {
+    opacity: 80%;
+}
+
+#PesquisaForm {
+    width: 50%;
+}
+
+#barraPesquisa {
+    display: flex;
 }
 
 #sitesFavoritos {
@@ -77,6 +130,12 @@ label:hover, button:hover {
     margin: 0 auto; /* Centraliza horizontalmente o ícone */
 }
 
+#listaSites #add {
+    width: 175px;
+    height: 175px;
+    padding-top: 16px;
+}
+
 #listaSites textarea {
     color: #FFF;
     background: rgba(155, 22, 22, 0.8);
@@ -87,7 +146,29 @@ label:hover, button:hover {
     resize: none;
     text-align: center;
 }
- 
-#listaSites .Opacidade {
-    opacity: 80%;
+
+#listaSites div {
+    font-size: large;
+    font-weight: 600;
+}
+
+#BarraTemperatura {
+    display: flex;
+    float: left;
+    position: relative;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#BarraTemperatura span{
+    color: #ececec;
+}
+
+#Temperatura {
+    display: flex;
+    align-items: center;
+}
+
+#Temperatura img{
+    margin-right: 10px;
 }
